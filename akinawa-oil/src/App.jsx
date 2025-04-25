@@ -4,14 +4,14 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Products from './components/Products'
-import Navbar from './components/Navbar'
-
+// import Navbar from './components/Navbar'
+import Header from './components/Header'
 function App() {
 
   return (
     <>
 
-      <Navbar />
+      <Header />
     <main className="pt-20"> 
 
       <Hero />
